@@ -1,0 +1,26 @@
+/*  Name:		Pit Apps
+ */
+
+Table of Contents:
+
+	FindComponents.c -	Main class file which handles file in/output
+				and performs DFS to find the components of a directed graph
+			  	on the input files. It relies on the List and Graph ADT.
+				It takes two arguments which are paths to two files:
+				 - An input file which begins with the number of
+				   vertices in the graph. It then has a list of 
+				   directed edges, a dummy edge "0 0" to indicate the
+				   end of the file
+				 - An output file which will be created with the
+				   results of the DFS operation.
+			
+	List.c		-	List ADT.
+	List.h		-	List header file.
+	ListTest.c	-	Tests the List ADT.
+	Graph.c		-	Graph ADT.
+	Graph.h		- 	Graph header file.
+	GraphTest.c	-	Tests the Graph ADT.
+	MakeFile	-	Creates an executable FindComponents and enables the user to
+				run it using:
+					./FindComponents infile outfile
+	README		-	This file.
