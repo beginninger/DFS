@@ -39,7 +39,7 @@ int main(int argc, char* argv[]) {
     printf("Printing Graph\n");
     printGraph(stdout, G);
 
-    printf("Running BFS\n");
+    printf("Running DFS\n");
     DFS(G, L);
 
     printf("Printing List\n");

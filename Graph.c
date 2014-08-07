@@ -165,7 +165,7 @@ void Visit(GraphRef G, ListRef S, int x, int *time) {
     insertAfterCurrent(S, x); /* insert item to the front of the *new* stack */
 }
 
-/* Runs BFS algorithm 
+/* Runs DFS algorithm 
  * Pre: getLength(S)==getOrder(G) */
 void DFS(GraphRef G, ListRef S) {
     if (G == NULL) {
